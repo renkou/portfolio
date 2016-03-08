@@ -62,6 +62,7 @@
 @mixin grid_r 4, 400 {}
 @mixin grid_r 4, 800 {}
 
+
 /**
  * PACE (automatic pre-loader thingy)
  */
@@ -99,3 +100,45 @@ img {
 /**
  * YOUR CODE HERE
  */
+
+body {
+    width: 100%;
+    margin: 2.5% 2.5% 2.5% 0;
+    position: relative;
+}
+
+.side-nav {
+    background-color: lightblue;
+    width: 30%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    padding: 2.5% 2.5%;
+ }
+
+/*.side-nav span:nth-child(7) {
+    color: yellow;
+}*/
+
+.prof-pic {
+    border-radius: 50%;
+    width: 60%;
+ }
+
+.main-body {
+    position: absolute;
+    width: 67.5%;
+    left: 30%;
+}
+
+ #skills {
+    background-color: lightgreen;
+    height: 50vh;
+ }
+
+ #projects {
+    background-color: orange;
+    height: 50vh;
+ }
